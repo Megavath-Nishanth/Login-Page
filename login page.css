@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightslategray;
+    font-family: 'Poppins', sans-serif;
+}
+.login-page{
+    background-color: #ffffff;
+    width: 500px;
+    margin: 65px auto;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 25px 25px 25px;
+}
+.login-page h1{
+    padding: 35px 35px 0px 35px;
+    font-weight: 300;
+}
+.login-page .content{
+    text-align: center;
+    padding: 35px;
+}
+.login-page .input-field{
+    padding: 10px 5px;
+}
+.login-page .input-field input{
+    font-size: 15px;
+    display: block;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 1px;
+    border: 0;
+    border-bottom: 1px solid #747474;
+    outline: none;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+.login-page a.link{
+    text-decoration: none;
+    color: #747474;
+    display: inline-block;
+    margin-top: 10px;
+}
+.login-page .action{
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+}
+.login-page .action button{
+    height: 50px;
+    width: 100%;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 0px;
+    cursor: pointer;
+    color: #747474;
+    outline: 0;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+.login-page .action button:nth-child(1){
+    background-color: lightcoral;
+}
+.login-page .action button:nth-child(2){
+    border-bottom-left-radius: 0px;
+    background-color: #18243a;
+}
